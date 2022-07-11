@@ -2,7 +2,40 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  uyguyh
+// let x=10;
+// x=x+1;
+
+// console.log(x); //11
+
+
+// const x=10;
+
+// x=x+5;
+// console.log(x);
+
+
+// {
+//   const x=10;
+// }
+// console.log(x);
+
+// const display =(Name,id) => {
+//   console.log(Name , id);
+// }
+
+// display ("apps",11);
+
+// let grid =[12,18,26,27,28,46,'x'];
+
+// console.log(grid[3], grid);
+
+
+// let arr = [12,18,26,27,28,46];
+
+// let ans = Array.isArray(arr);
+
+// console.log(ans);
+
   return (
     <div className="App">
       <header className="App-header">
