@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-// let x=10;
-// x=x+1;
+// let x=10; 
+// x=x+1; 
 
 // console.log(x); //11
 
