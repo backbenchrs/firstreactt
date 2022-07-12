@@ -2,39 +2,36 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-// let x=10; 
-// x=x+1; 
 
-// console.log(x); //11
+  
+  // let arr=[10,50,80,44,48,36];
+  // let arr1=[39,88]; 
 
+  // let newArr=arr.concat(arr1);
+  // console.log(newArr); //10,50,80,44,48,36 length:8
 
-// const x=10;
+  //  let ans=arr.some((a) => a>50);
+  //  console.log(ans); // true
 
-// x=x+5;
-// console.log(x);
+//  console.log(arr.tostring());  
 
-
-// {
-//   const x=10;
-// }
-// console.log(x);
-
-// const display =(Name,id) => {
-//   console.log(Name , id);
-// }
-
-// display ("apps",11);
-
-// let grid =[12,18,26,27,28,46,'x'];
-
-// console.log(grid[3], grid);
+  // let ans=arr.find((a)=> a>20);
+  // console.log(ans); //50    
 
 
-// let arr = [12,18,26,27,28,46];
+  // arr.splice(1,0,66); //10, 66, 50, 80, 44, 48, 36
+  //  arr.splice(2,2); //10, 50, 48, 36
+  // console.log(arr);
 
-// let ans = Array.isArray(arr);
+                        // OBJECT
+// let obj = {
+// id : 11,
+// name : "react"
+// };
+  //  console.log(obj.id,obj["name"]); // {id:11, name:react}
 
-// console.log(ans);
+
+
 
   return (
     <div className="App">
