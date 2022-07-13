@@ -4,35 +4,45 @@ import './App.css';
 function App() {
 
   
-  // let arr=[10,50,80,44,48,36];
-  // let arr1=[39,88]; 
 
-  // let newArr=arr.concat(arr1);
-  // console.log(newArr); //10,50,80,44,48,36 length:8
+  
+                                  let arr = [1, 2, 3, 4, 5];
 
-  //  let ans=arr.some((a) => a>50);
-  //  console.log(ans); // true
-
-//  console.log(arr.tostring());  
-
-  // let ans=arr.find((a)=> a>20);
-  // console.log(ans); //50    
-
-
-  // arr.splice(1,0,66); //10, 66, 50, 80, 44, 48, 36
-  //  arr.splice(2,2); //10, 50, 48, 36
-  // console.log(arr);
-
-                        // OBJECT
-// let obj = {
-// id : 11,
-// name : "react"
-// };
-  //  console.log(obj.id,obj["name"]); // {id:11, name:react}
-
-
-
-
+                                  //copy arr
+                                
+                                  // let arr1 = [...arr];
+                                  // console.log(arr1);
+                                
+                                  //merging
+                                
+                                  // let arr2 = [12, 23];
+                                  // let ans = [...arr, ...arr2];
+                                  // console.log(ans);
+                                
+                                  //dstructuring
+                                
+                                  // const [ fist,second,third,xyz,fifth] = arr
+                                  //  console.log(second);
+                                
+                                //------------object-------------------//
+                                
+                                 let obj = {id:101, name:'amit'};
+                                
+                                   //copy object
+                                
+                                  //  let obj1 = {...obj};
+                                  //  console.log(obj1);
+                                
+                                   //merge object
+                                
+                                  //  let obj2 ={id:102, place:'surat'};
+                                  //  let ans2 = {...obj,...obj2};
+                                  //  console.log(ans2);
+                                
+                                   //destructoring
+                                
+                                  //  let {id,name} = obj;
+                                  //  console.log(name,obj,id);
   return (
     <div className="App">
       <header className="App-header">
